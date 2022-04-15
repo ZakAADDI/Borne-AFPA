@@ -1,0 +1,196 @@
+
+body{
+    background-color: whitesmoke;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.no-gutter > [class*='col-']{
+    padding-right:0;
+    padding-left:0;
+}
+
+#logo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid 1px;
+    height: 110px;
+    background-color: rgb(120, 177, 14);
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#seconnecter{
+    border: none;
+    width: 120px;
+    height: 50px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(0, 113, 219);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#seconnecter:hover{
+    border: 1px solid rgb(0, 113, 219);
+    color: rgb(0, 113, 219);
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+/**Titres h2**/
+
+h2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(59, 59, 59);
+    border-radius: 20px;
+    background-color: rgba(182, 181, 181, 0.438);
+    width: 350px;
+    height: 60px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/**Coordonées**/
+
+#adresseafpa{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#adressecontact{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/**Phrases ROUGE**/
+
+h3{
+    font-size: 25px;
+    color: red;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/**Formulaire**/
+
+#formulaire{ 
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#nom, #prenom, #email, #num{
+    width: 400px;
+    border: 1px solid rgb(0, 113, 219);
+    border-radius: 10px;
+}
+
+#champso{
+    font-size: 10px;
+    margin-bottom: 50px;
+}
+
+/**Checkboxs**/
+
+#choix_formation{
+    margin-bottom: 30px;
+}
+
+label{
+    font-weight: bolder;
+    color: green;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/**Footer**/
+
+#inscription{
+    border: none;
+    width: 120px;
+    height: 50px;
+    font-weight: bolder;
+    color: white;
+    background-color: red;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#inscription:hover{
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+}
+
+#abonner{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: rgb(120, 177, 14);
+    height: 150px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px; 
+}
+
+h6{
+    font-size: 15px;
+}
